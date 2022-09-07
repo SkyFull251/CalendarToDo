@@ -1,0 +1,57 @@
+.nav {
+    &-date {
+        width: 30px;
+        height: 30px;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    &__button {
+        border-radius: 50%;
+        border: 2px solid black;
+        cursor: pointer;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-add {
+            width: 17.5px;
+            height: 17.5px;
+            background: url("../../assets/img/plus.png")0 0/cover no-repeat;
+        }
+    }
+
+    &__datepick {
+        background: url("../../assets/img/date.png")0 0/cover no-repeat;
+        width: 30px;
+        height: 30px;
+    }
+    &__filter{
+        display: flex;
+    }
+}
+.filter{
+    &__text{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    &__button{
+        &-left{
+            width: 30px;
+            height: 30px;
+            background: url("../../assets/img/left.png")0 0/cover no-repeat;
+            margin-right: 15px;
+            cursor: pointer;
+        }
+        &-right{
+            width: 30px;
+            height: 30px;
+            background: url("../../assets/img/right.png")0 0/cover no-repeat;
+            margin-left: 15px;
+            cursor: pointer;
+        }
+    }
+    
+}

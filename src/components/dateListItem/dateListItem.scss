@@ -1,0 +1,29 @@
+.item {
+    width: 20%;
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 0.151);
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    &__date{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    
+    &__list{
+        margin: 0;
+        padding: 0;
+        li{
+            margin: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.247);
+        }
+    }
+}
+.active{
+    background-color:rgba(138, 24, 24, 0.363);
+}
